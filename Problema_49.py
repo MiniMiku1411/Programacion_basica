@@ -31,6 +31,4 @@ respuesta=input("desea  mostrar todo los prouctos?(s/n): ")
 
 if respuesta=='s':
     for nom, cod, cant in zip(nombre, codigo, cantidad):
-        print("nombre:", nom)
-        print("codigo:", cod)
-        print("cantidad:", cant)
+        print(f'nombre, {nom}\ncodigo: {cod}\ncantidad: {cant}')
