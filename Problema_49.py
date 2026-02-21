@@ -34,4 +34,3 @@ if respuesta=='s':
         print("nombre:", nom)
         print("codigo:", cod)
         print("cantidad:", cant)
-

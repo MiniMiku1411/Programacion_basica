@@ -21,7 +21,7 @@ while i<canti_produc:
 respuesta=input("desea buscar un producto especifico?(s/n): ")
 
 while respuesta=='s':
-    tipo_busq=int(input("que tipo de busqueda quiere\n1-por indice \n2-por nombre del producto"))
+     tipo_busq=int(input("que tipo de busqueda quiere"))
 
 respuesta=input("desea  mostrar todo los prouctos?(s/n): ")
 
